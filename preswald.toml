@@ -1,0 +1,20 @@
+[project]
+title = "More Coffee Please!"
+version = "0.1.0"
+port = 8501
+slug = "more-coffee-please"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "More Coffee Please!"
+# logo = "images/logo.png"
+favicon = "images/icons8-coffee-16.png"
+primaryColor = "#F89613"
+
+[data.coffee_data]
+type = "csv"
+path = "data/coffee.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
